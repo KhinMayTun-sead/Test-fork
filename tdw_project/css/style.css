@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Myriad Pro";
+}
+.cFix:after{
+	display: block;
+	content: "";
+	height: 0;
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+}
+#wrapper {
+	width: 100%;
+	background: url(http://localhost/tdw_project/images/tdw_bg.jpg) repeat;
+	height: 800px;
+	color: #fff;
+}
+#wrap_inner {
+	width: 920px;
+	margin: 0 auto;
+}
+#header {
+	padding: 85px 0px;
+}
+#header h1 {
+	font-size: 49px;
+	
+}
+
+.box_style01 {
+	width: 150px;
+	float: left; 
+}
+.box_style02 {
+	width: 280px;
+	float: left;
+}
+.section01 .box_style01,.section01 .box_style02 {
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	padding: 36px 0px 7px 0;
+}
+.section01 div:last-child,.section02 div:last-child {
+	margin-right: 0px;
+}
+.section01 .box_style01 h3,.section01 .box_style02 h3,.section02 .box_style04 h3,.section02 .box_text h4 {
+	padding-bottom: 20px;
+	
+}
+.section01 .box_style01 h3,.section01 .box_style02 h3,.section02 .box_style04 h3,.section02 .box_style01 h3,.section02 .box_text h4 {
+	padding: 20px 0px 0px 12px;
+	text-align: left;
+}
+.box_home {
+	background: #3387ea;
+
+}
+.box_about {
+	background: #f9be3e;
+}
+.box_portifo {
+	background: #d3573f;
+}
+.box_photo {
+	background: #59b7e2;
+}
+.box_test {
+	background: #32af95;
+}
+.box_hire{
+	background: #85a73f;
+}
+.box_contact {
+	background: #7e5abd;
+}
+.section02 {
+	padding-top: 10px;
+}
+.section02 .box_style01,.section02 .box_style02,.box_style04 {
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	padding: 36px 0px 5px 0px;
+}
+.section02 .box_style01 {
+padding: 32px 0px 5px 0px;
+}
+.box_style03 {
+	width: 440px;
+	float: left;
+	margin-right: 10px;
+}
+.box_style04 {
+	width: 310px;
+	float: left;
+	padding-top: 32px;
+}
+.box_img {
+	float: left;
+}
+.box_text {
+	float: left;
+	width: 290px;
+	background-color: #000;
+	padding: 3px 0px 10px 0px;
+}
+.box_text h3 {
+	margin: 10px 19px;
+	font-size: 20px;
+}
+.box_text span {
+	font-size: 20px;
+	margin: 15px 19px;
+	font-weight: 1px;
+}
+.section02 .box_text h4 {
+	padding: 20px 0px 5.5px 12px;
+}
+.footer_img img {
+	margin-right: 7px;
+	margin-top: 3px;
+}
+.footer_text {
+	float: right;
+	margin-top: -44px;
+	font-size: 14px;
+}
+
